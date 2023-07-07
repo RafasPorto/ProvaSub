@@ -1,0 +1,16 @@
+### Listar computadores
+GET http://localhost:3333/computador/listar 
+
+
+### registrar computador
+POST https://localhost:3333/computador/cadastrar
+Content-Type: application/json
+
+{
+    "dono" : "José",
+    "placamae" : "uma placa ai",
+    "processador" : "Intel I7 10400F",
+    "memoria" : 32,
+    "armazenamento" : "ssd 2TB",
+    "fonte" : "Uma fonte poderosa"
+}
